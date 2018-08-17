@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MagicSquare</string>
+    <string name="magic_square_hint">Enter size of the magic square</string>
+    <string name="magic_square_display">Display</string>
+</resources>
