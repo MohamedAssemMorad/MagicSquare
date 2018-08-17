@@ -12,7 +12,7 @@ public class MainPresenterImpl implements MainPresenter {
 
     @Override
     public void validateInput(int i) {
-        if(i < 3){
+        if(i < 3 || (i % 2) == 0){
             mainView.showError();
         }else {
             mainView.showMagicSquare();
